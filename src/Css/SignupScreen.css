@@ -45,7 +45,7 @@
     text-decoration: underline;
 }
 
-@media only screen and (min-width: 268px) {
+@media only screen and (max-width: 368px) {
     .signupScreen {
         max-width: 500px;
         padding: 50px;
