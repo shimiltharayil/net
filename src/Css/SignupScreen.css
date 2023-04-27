@@ -1,10 +1,13 @@
 .signupScreen {
-    padding: 20px;
+    max-width: 300px;
+    padding: 70px;
+    margin-right: auto;
+    margin-left: auto;
     background:rgba(0, 0, 0, 0.85);
 }
 
 .signupScreen > form {
-    display:grid;
+    display: grid;
     flex-direction: column;
 }
 
@@ -42,11 +45,14 @@
     text-decoration: underline;
 }
 
-@media only screen and (min-width: 220px) and (max-width: 767px) {
+@media only screen and (min-width: 268px) {
     .signupScreen {
-        max-width: 300px;
-        margin-right: auto;
-        margin-left: auto;
-        padding: 40px;
+        max-width: 500px;
+        padding: 50px;
+    }
+
+    .signupScreen > form > input {
+        width: 100%;
+        max-width: none;
     }
 }
