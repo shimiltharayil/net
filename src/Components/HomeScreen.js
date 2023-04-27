@@ -20,7 +20,7 @@ function HomeScreen() {
          <Row title = "Horror Movies" fetchUrl = {requests.fetchHorrorMovies } /> 
          <Row title = "Documentaries" fetchUrl = { requests.fetchDocumentaries} /> 
          <Row title = "Anime" fetchUrl = {requests.fetchAnime } /> 
-      
+      <div></div>
     </div>
   )
 }
